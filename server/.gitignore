@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# Env files (ignore anywhere in the tree)
+.env
+server/.env
+.env*
+
+# Data dumps
+.envdata/*.json
