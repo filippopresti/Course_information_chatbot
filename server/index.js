@@ -13,14 +13,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-// curl -X POST http://localhost:3000/generate \
-// -H "Content-Type: application/json" \
-// -d '{
-//   "query": "What will people learn from this video?",
-//   "video_id": "Pxn276cWKeI",
-//   "thread_id": 1
-// }'
-
 app.post("/generate", async (req, res) => {
   try {
     const { query, thread_id } = req.body;
@@ -50,3 +42,11 @@ app.post("/generate", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+// curl -X POST http://localhost:3000/generate \
+// -H "Content-Type: application/json" \
+// -d '{
+//   "query": "What will people learn from this video?",
+//   "video_id": "Pxn276cWKeI",
+//   "thread_id": 1
+// }'

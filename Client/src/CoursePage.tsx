@@ -3,11 +3,11 @@ import { useParams, Navigate } from "react-router-dom";
 import courses from "../data/courses.json"; // adjust path
 import { Hero } from "./components/Hero";
 export function CoursePage() {
+  // Ensure the courses data is imported correctly
   const { slug } = useParams<{ slug: string }>();
   const course = courses.find((c) => c.slug === slug);
 
   if (!course) {
-    // no match → 404
     return <Navigate to="/404" replace />;
   }
 

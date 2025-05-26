@@ -50,6 +50,7 @@ export const LocationsPage: React.FC = () => {
       </div>
 
       <br />
+      {/* CCI buildings locations (Google maps) */}
       <section className="locations-page">
         <div className="locations-grid">
           {LOCATIONS.map((loc) => (
@@ -71,7 +72,7 @@ export const LocationsPage: React.FC = () => {
             </div>
           ))}
         </div>
-
+        {/* Virtual tour */}
         <div id="virtual-tour" className="virtual-tour">
           <h2>Virtual Tour</h2>
           <p>Explore our facilities virtually! Enjoy the tour.</p>
@@ -82,7 +83,7 @@ export const LocationsPage: React.FC = () => {
             />
           </div>
         </div>
-
+        {/* Interactive Map */}
         <div id="virtual-tour" className="virtual-tour">
           <h2>CCI Building and Student Halls</h2>
           <p>Explore CCI buildings and Student accomodations across London.</p>
