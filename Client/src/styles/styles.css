@@ -1,0 +1,527 @@
+src/components/LandingPage.css :root {
+  /* palette */
+  --background-color: #0a0a0a;
+  --surface-color: #1e1e1e;
+  --primary-color: #ff5000;
+  --text-color: #ffffff;
+  --secondary-text-color: #a0a0a0;
+  --user-message-color: #2d2d2d;
+  --ai-message-color: #242424;
+  --border-color: #333333;
+  --disabled-color: #505050;
+
+  /*ew heading colours */
+  --heading-h1-color: #f6f6f6;
+  --heading-h3-color: #ffffff;
+  --heading-h4-color: #a0a0a0;
+}
+.landing {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+.landing__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--background-color);
+}
+.landing__logo {
+  height: 70px;
+}
+
+:root {
+  --header-height: 4rem;
+}
+
+.landing__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background: var(--background-color);
+  z-index: 100;
+}
+
+.landing {
+  padding-top: var(--header-height);
+}
+
+.landing__hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-size: cover;
+  background-position: center;
+  color: var(--background-color);
+}
+.landing__hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.landing__hero p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: var(--text-color);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--text-color) !important;
+  color: var(--surface-color) !important;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: var(--primary-color) !important;
+  color: var(--text-color) !important;
+}
+.landing__about,
+.landing__courses {
+  padding: 3rem 2rem;
+}
+.landing__about h3,
+.landing__courses h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.courses__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+.course-card {
+  background: #f9f9f9;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.course-card h3 {
+  color: #222;
+  margin-bottom: 0.75rem;
+}
+.landing__footer {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+  color: #aaa;
+  font-size: 0.875rem;
+}
+
+.cci-footer {
+  background-color: var(--surface-color);
+  color: var(--text-color);
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.cci-footer__inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.cci-footer__brand h3 {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.cci-footer__sections {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cci-footer__section {
+  min-width: 150px;
+}
+
+.cci-footer__section h3 {
+  margin-bottom: 0.5rem;
+  color: var(--heading-h3-color);
+}
+
+.cci-footer__section p,
+.cci-footer__section address {
+  margin: 0;
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+}
+
+.cci-footer__section a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.cci-footer__section a:hover {
+  text-decoration: underline;
+}
+
+.locations-page {
+  padding: 4rem 2rem;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.locations-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+.locations-header h1 {
+  font-size: 2.5rem;
+  color: var(--heading-h1-color);
+  margin-bottom: 0.5rem;
+}
+.locations-header p {
+  font-size: 1.125rem;
+  color: var(--secondary-text-color);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.location-card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* On narrower viewports, switch to a single column */
+@media (max-width: 600px) {
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.location-card h2 {
+  margin: 1rem;
+  font-size: 1.25rem;
+  color: var(--heading-h3-color);
+}
+
+.location-card address {
+  margin: 0 1rem 1rem;
+  font-style: normal;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Stack on narrower viewports */
+@media (max-width: 600px) {
+  .cci-footer__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cci-footer__sections {
+    flex-direction: column;
+  }
+}
+
+.virtual-tour {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.virtual-tour h2 {
+  margin-bottom: 0.5rem;
+  color: var(--heading-h3-color);
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.virtual-tour p {
+  margin-bottom: 1rem;
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* make the iframe responsive */
+.virtual-tour .iframe-wrapper {
+  position: relative;
+  width: 100%;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.virtual-tour .iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* small screens adjustments */
+@media (max-width: 600px) {
+  .virtual-tour {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .virtual-tour h2 {
+    font-size: 1.5rem;
+  }
+  .virtual-tour p {
+    font-size: 0.9rem;
+  }
+}
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero__content {
+  position: relative;
+  text-align: center;
+  color: var(--text-color);
+  padding: 0 1rem;
+  max-width: 800px;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--heading-h1-color);
+}
+
+.hero__subtitle {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-text-color);
+}
+
+.hero__btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--text-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.hero__btn:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+}
+
+.landing {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+.landing__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--background-color);
+}
+.landing__logo {
+  height: 70px;
+}
+
+:root {
+  --header-height: 4rem;
+}
+
+.landing__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background: var(--background-color);
+  z-index: 100;
+}
+
+.landing {
+  padding-top: var(--header-height);
+}
+
+.landing__nav a,
+.landing a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+.landing__nav a:hover,
+.landing a:hover {
+  color: var(--primary-color);
+}
+
+.landing__hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-size: cover;
+  background-position: center;
+  color: var(--background-color);
+}
+.landing__hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.landing__hero p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: var(--text-color);
+}
+
+.courses-list {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: var(--text-color);
+}
+.courses-list h1 {
+  color: var(--heading-h1-color);
+  margin-bottom: 1.5rem;
+}
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  display: block;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.course-card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--heading-h3-color);
+}
+.course-level {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+}
+
+.course-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: var(--text-color);
+}
+.course-page h1 {
+  color: var(--heading-h1-color);
+  margin-bottom: 0.5rem;
+}
+.course-page .course-level {
+  color: var(--secondary-text-color);
+  margin-bottom: 1.5rem;
+}
+.course-page section {
+  margin-bottom: 1.5rem;
+}
+.course-page h3 {
+  color: var(--heading-h3-color);
+  margin-bottom: 0.5rem;
+}
+.course-page ul {
+  list-style: disc inside;
+}
+.course-page .btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--text-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.landing__nav a,
+.landing a,
+.landing__title h3,
+.landing__title {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.landing__nav a:hover,
+.landing a:hover,
+.landing__title:hover h3,
+.landing__title:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}

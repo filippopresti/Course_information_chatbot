@@ -1,0 +1,146 @@
+[
+  {
+    "title": "BSc (Hons) Creative Computing",
+    "slug": "bsc-hons-creative-computing",
+    "level": "Undergraduate",
+    "description": "Blend computing and creative practice to build apps, craft digital experiences and explore machine intelligence.",
+    "entryRequirements": [
+      "A-level Mathematics grade 6 (or equivalent)",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "3 years full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/undergraduate/bsc-hons-creative-computing/apply"
+  },
+  {
+    "title": "BSc (Hons) Creative Robotics",
+    "slug": "bsc-hons-creative-robotics",
+    "level": "Undergraduate",
+    "description": "Learn to design, build and program robots while investigating their role and creative potential in society.",
+    "entryRequirements": [
+      "A-level Mathematics grade 6 (or equivalent)",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "3 years full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/undergraduate/bsc-hons-creative-robotics/apply"
+  },
+  {
+    "title": "BSc (Hons) Computer Science",
+    "slug": "bsc-hons-computer-science",
+    "level": "Undergraduate",
+    "description": "Gain a solid foundation in programming, algorithms, computer graphics and AI, applied in creative contexts.",
+    "entryRequirements": [
+      "A-level Mathematics grade 6 (or equivalent)",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "3 years full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/undergraduate/bsc-hons-computer-science/apply"
+  },
+  {
+    "title": "BSc (Hons) Data Science and AI",
+    "slug": "bsc-hons-data-science-and-ai",
+    "level": "Undergraduate",
+    "description": "Develop practical skills in data analysis, machine learning and AI to shape data-driven creative solutions.",
+    "entryRequirements": [
+      "A-level Mathematics grade 6 (or equivalent)",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "3 years full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/undergraduate/bsc-hons-data-science-and-ai/apply"
+  },
+  {
+    "title": "MSc Creative Computing",
+    "slug": "msc-creative-computing",
+    "level": "Postgraduate",
+    "description": "Advance your skills in creative coding, machine learning and interactive systems for the digital creative industries.",
+    "entryRequirements": [
+      "Undergraduate degree in computing or related discipline",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/msc-creative-computing/apply"
+  },
+  {
+    "title": "MSc Creative Robotics",
+    "slug": "msc-creative-robotics",
+    "level": "Postgraduate",
+    "description": "Explore advanced robotics design and creative applications, combining mechanical, software and interactive systems.",
+    "entryRequirements": [
+      "Undergraduate degree in computing, engineering or related discipline",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/msc-creative-robotics/apply"
+  },
+  {
+    "title": "MSc Computer Science",
+    "slug": "msc-computer-science",
+    "level": "Postgraduate",
+    "description": "Deepen your computing knowledge—covering algorithms, systems, graphics and AI—with optional creative project pathways.",
+    "entryRequirements": [
+      "Undergraduate degree in computer science or related discipline",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/msc-computer-science/apply"
+  },
+  {
+    "title": "MSc Data Science and AI",
+    "slug": "msc-data-science-and-ai",
+    "level": "Postgraduate",
+    "description": "Master data science methods and AI techniques for large-scale analysis and creative applications.",
+    "entryRequirements": [
+      "Undergraduate degree with strong quantitative content",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/msc-data-science-and-ai/apply"
+  },
+  {
+    "title": "MSc Applied Machine Learning for Creatives",
+    "slug": "msc-applied-machine-learning-for-creatives",
+    "level": "Postgraduate",
+    "description": "Apply cutting-edge machine learning to creative workflows, from generative art to interactive installations.",
+    "entryRequirements": [
+      "Undergraduate degree in computing, design or related discipline",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/msc-applied-machine-learning-for-creatives/apply"
+  },
+  {
+    "title": "MAMSc Computing in the Creative Industries (Modular)",
+    "slug": "mamsc-computing-in-the-creative-industries-modular",
+    "level": "Postgraduate",
+    "description": "Build a bespoke PG programme across modules in creative computing, tailored to your interests and schedule.",
+    "entryRequirements": [
+      "Undergraduate degree or professional experience",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "Flexible modular programme (up to 5 years)",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/mamsc-computing-in-the-creative-industries-modular/apply"
+  },
+  {
+    "title": "MA Internet E-qualities",
+    "slug": "ma-internet-equalties",
+    "level": "Postgraduate",
+    "description": "Critically examine digital inclusion, equity and social impact of online technologies.",
+    "entryRequirements": [
+      "Undergraduate degree in humanities, creative or tech discipline",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/ma-internet-equalities/apply"
+  },
+  {
+    "title": "MRes Creative Computing",
+    "slug": "mres-creative-computing",
+    "level": "Postgraduate",
+    "description": "Conduct research-led creative computing projects with mentorship from the CCI research community.",
+    "entryRequirements": [
+      "Undergraduate degree with research experience",
+      "IELTS 6.5 (minimum 5.5 in each component)"
+    ],
+    "duration": "1 year full-time",
+    "applyLink": "https://www.arts.ac.uk/subjects/creative-computing/postgraduate/mres-creative-computing/apply"
+  }
+]
